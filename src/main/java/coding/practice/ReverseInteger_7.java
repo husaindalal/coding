@@ -1,3 +1,5 @@
+package coding.practice;
+
 public class ReverseInteger_7 {
 
     public static void main(String[] args) {

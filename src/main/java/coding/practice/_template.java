@@ -1,3 +1,5 @@
+package coding.practice;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,4 +17,6 @@ public class _template {
         }
         return list.get(0);
     }
+
+
 }

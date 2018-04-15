@@ -1,9 +1,15 @@
+package coding.practice;
+
+import java.util.Arrays;
 import java.util.List;
 
 public class LongestCommonPrefix_14 {
 
     public static void main(String[] args) {
+        List<String> strings = Arrays.asList("LinkedIn", "Link", "Linkr", "Linked");
 
+
+        System.out.println(longestCommonPrefix(strings));
     }
 
     private static String longestCommonPrefix(List<String> strings) {
