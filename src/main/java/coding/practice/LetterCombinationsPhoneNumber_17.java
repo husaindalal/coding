@@ -25,6 +25,12 @@ public class LetterCombinationsPhoneNumber_17 {
         System.out.println(run(phoneNum, numMap));
     }
 
+    /*
+    can also use queue
+    pop each time and multiply each char from next number and push again
+
+     */
+
     private static List<String> run(String num, Map<Integer, String> numMap) {
         List<String> result = new ArrayList<>();
         if (num == null || num.isEmpty()) {
